@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Creative Weather App</title>
+<link rel="stylesheet" href="style.css" />
+<!-- Optional Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h1>Weather Explorer</h1>
+  <input type="text" id="city-input" placeholder="Enter city name" />
+  <button id="search-btn">Search</button>
+  <button id="toggle-mode">🌙 Dark Mode</button>
+
+  <div id="loading" class="hidden">
+    <div class="spinner"></div> Loading...
+  </div>
+
+  <div id="weather-details" class="weather-card hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
